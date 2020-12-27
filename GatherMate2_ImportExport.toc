@@ -6,6 +6,7 @@
 ## SavedVariables:
 ## OptionalDeps: LibStub, CallbackHandler-1.0, Ace3, LibBase64-1.0
 ## Dependencies: GatherMate2
+## X-Curse-Project-ID: 431399
 
 #@no-lib-strip@
 libs\LibStub\LibStub.lua
