@@ -1,4 +1,4 @@
-package-as: Gathermate2_ImportExport
+package-as: GatherMate2_ImportExport
 
 externals:
    libs/LibStub:
