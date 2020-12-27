@@ -1,0 +1,19 @@
+## Interface: 90002
+## Title: Gathermate2 [Inport/Export]
+## Notes: Added import/export string options to Gathermate2
+## Author: Hizuro
+## Version: @project-version@
+## SavedVariables:
+## OptionalDeps: LibStub, CallbackHandler-1.0, Ace3, LibBase64-1.0
+## Dependencies: GatherMate2
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+libs\LibBase64-1.0\LibBase64-1.0.lua
+libs\LibDeflate\LibDeflate.lua
+libs\AceSerializer-3.0\AceSerializer-3.0.xml
+#@end-no-lib-strip@
+
+Localizations.lua
+GatherMate2_ImportExport.lua
