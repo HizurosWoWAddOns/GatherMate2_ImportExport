@@ -1,6 +1,6 @@
 ## Interface: 90002
-## Title: Gathermate2 [Inport/Export]
-## Notes: Added import/export string options to Gathermate2
+## Title: Gathermate2 [Import/Export]
+## Notes: Adds import/export string options to Gathermate2
 ## Author: Hizuro
 ## Version: @project-version@
 ## SavedVariables:
