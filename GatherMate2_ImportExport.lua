@@ -117,7 +117,7 @@ local function parseInsertedExportString(dialog)
 		uncompressedStr = nil;
 	end
 	if success and data then
-		local num,db = 0;
+		local num,a_num,db = 0,0;
 		for nodeType, mapData in pairs(data)do
 			db = _G["GatherMate2"..nodeType.."DB"];
 			if db then
@@ -126,15 +126,16 @@ local function parseInsertedExportString(dialog)
 						db[mapId] = {};
 					end
 					for coords,nodeIndex in pairs(nodes)do
-						--if not db[mapId][coords] then
+						if not db[mapId][coords] then
 							db[mapId][coords] = nodeIndex;
 							num = num + 1;
-						--end
+						end
+						a_num = a_num + 1;
 					end
 				end
 			end
 		end
-		ns.print(L["InsertSuccesfull"]:format(num));
+		ns.print(L["InsertSuccesfull"]:format(num,a_num));
 	end
 end
 

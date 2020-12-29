@@ -8,7 +8,7 @@ ns.L = setmetatable(L,{__index=function(t,k)
 end});
 
 -- Do you want to help localize this addon?
--- https://www.curseforge.com/wow/addons/@cf-project-name@/localization
+-- https://www.curseforge.com/wow/addons/gathermate2_importexport/localization
 
 --@do-not-package@
 L["AddOnLoaded"] = "AddOn loaded..."
@@ -20,7 +20,8 @@ L["ExportStringCreate"] = "Create export string"
 L["ExportStringCopy"] = "Copy export string with Ctrl+C";
 L["InputDialog"] = "Open the input dialog"
 L["InputDialogDesc"] = "Click on the button and copy the export string into the input field."
-L["InsertSuccesfull"] = "Successfully added %d nodes to GatherMate2."
+L["InsertSuccesfull"] = "Successfully added %d/%d nodes to GatherMate2."
+L["Import/Export"] = "Import/Export"
 --@end-do-not-package@
 
 --@localization(locale="enUS", format="lua_additive_table", handle-subnamespaces="none", handle-unlocalized="ignore")@
@@ -36,7 +37,8 @@ if LOCALE_deDE then
 	L["ExportStringCopy"] = "Kopiere die Export-Zeichenkette mit Strg+C.";
 	L["InputDialog"] = "Öffne den Eingabe-Dialog"
 	L["InputDialogDesc"] = "Klick auf den Button und kopiere die Export-Zeichenkette in das Eingabefeld."
-	L["InsertSuccesfull"] = "Erfolgreich %d Knoten GatherMate2 hinzugefügt."
+	L["InsertSuccesfull"] = "Erfolgreich %d/%d Knoten GatherMate2 hinzugefügt."
+	L["Import/Export"] = "Import/Export"
 --@end-do-not-package@
 --@localization(locale="deDE", format="lua_additive_table", handle-subnamespaces="none", handle-unlocalized="ignore")@
 end
