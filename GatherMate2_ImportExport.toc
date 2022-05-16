@@ -1,4 +1,6 @@
-## Interface: 90002
+## Interface: 90200
+## Interface-BCC: 20503
+## Interface-Classic: 11402
 ## Title: Gathermate2 [Import/Export]
 ## Notes: Adds import/export string options to Gathermate2
 ## Author: Hizuro
@@ -17,4 +19,7 @@ libs\AceSerializer-3.0\AceSerializer-3.0.xml
 #@end-no-lib-strip@
 
 Localizations.lua
+#@do-not-package@
+Localizations.workfile.lua
+#@end-do-not-package@
 GatherMate2_ImportExport.lua
