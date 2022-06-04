@@ -1,15 +1,17 @@
 # GatherMate2 Import/Export (WoW AddOn)
-![Build](https://github.com/hizuro/gathermate2_importexport/actions/workflows/bigwigsmods-packager.yml/badge.svg)
-![Tag](https://img.shields.io/github/v/tag/hizuro/gathermate2_importexport?style=flat-square)
-![Downloads](https://img.shields.io/github/downloads/hizuro/gathermate2_importexport/total?style=flat-square)
-![Downloads](https://img.shields.io/github/downloads/hizuro/gathermate2_importexport/latest/total?style=flat-square)
+![Build](https://github.com/HizurosWoWAddOns/gathermate2_importexport/actions/workflows/bigwigsmods-packager.yml/badge.svg)
+![Tag](https://img.shields.io/github/v/tag/HizurosWoWAddOns/gathermate2_importexport?style=flat-square)
+![Downloads](https://img.shields.io/github/downloads/HizurosWoWAddOns/gathermate2_importexport/total?style=flat-square)
+![Downloads](https://img.shields.io/github/downloads/HizurosWoWAddOns/gathermate2_importexport/latest/total?style=flat-square)
 &nbsp; &nbsp; &nbsp; &nbsp;
 [![Patreon](https://img.shields.io/badge/&zwj;-Patreon-gray?logo=patreon&color=red&style=flat-square)](https://www.patreon.com/bePatron?u=12558524)
 [![Paypal](https://img.shields.io/badge/&zwj;-Paypal-gray?logo=paypal&color=blue&style=flat-square)](https://paypal.me/hizuro)
-![Sponsors](https://img.shields.io/github/sponsors/hizuro?logo=github&style=flat-square)
+![Sponsors](https://img.shields.io/github/sponsors/HizurosWoWAddOns?logo=github&style=flat-square)
 
 ## Description
 This addon adding "Import/Export" section to GatherMate2.
+
+![Screenshot1](./.github/media/mg2_ie_1.jpg)
 
 ## Features
 
@@ -41,7 +43,7 @@ The table design is:
 
 ## My other projects
 * [On Curseforge](https://www.curseforge.com/members/hizuro_de/projects)
-* [On Github](https://github.com/hizuro?tab=repositories)
+* [On Github](https://github.com/HizurosWoWAddOns?tab=repositories)
 
 ## Disclaimer
 > World of Warcraft© and Blizzard Entertainment© are all trademarks or registered trademarks of Blizzard Entertainment in the United States and/or other countries. These terms and all related materials, logos, and images are copyright © Blizzard Entertainment.
